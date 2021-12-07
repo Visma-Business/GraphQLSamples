@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MvcCode/.vs/MvcCode
+/MvcCode/bin/Debug/net6.0
+/MvcCode/obj
+/SimpleQuery/.vs/SimpleQuery
+/SimpleQuery/bin/Debug/net6.0
+/SimpleQuery/obj
