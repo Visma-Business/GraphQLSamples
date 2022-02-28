@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
@@ -71,6 +72,14 @@ namespace SimpleQuery
 
             var body = await response.Content.ReadAsStringAsync();
             var content = await response.Content.ReadFromJsonAsync<TResponse>();
+
+            IEnumerable<string> values;
+            if (response.Headers.TryGetValues("x-vbc-traceid", out values))
+            {
+                // Report this traceId to visma NXT support 
+                string vbcTraceId = values.First();
+                Console.WriteLine($"Add '{vbcTraceId}' to visma NXT support if you are having problems with your requests.");
+            }
             return content;
          }
          catch (HttpRequestException ex)
