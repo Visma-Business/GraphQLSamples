@@ -1,6 +1,6 @@
-# Visma Business NXT API Samples
+# Business NXT API Samples
 
-A repository contains samples for using the Visma Business NXT API.
+A repository contains samples for using the Business NXT API.
 
 User documentation is freely available [here](https://docs.business.visma.net/).
 
