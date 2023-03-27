@@ -1,8 +1,8 @@
 # MvcCode
 
-This project provides an example for authenticating with Visma Connect in order to obtain an access token for performing Visma Business Cloud GraphQL queries.
+This project provides an example for authenticating with Visma Connect in order to obtain an access token for performing Business NXT GraphQL queries.
 
-This sample is described in the [Visma Business Cloud API documentation](https://business.visma.net/apidocs/docs).
+This sample is described in the [Business NXT API documentation](https://docs.business.visma.net/).
 
 ## Prerequisites
 
