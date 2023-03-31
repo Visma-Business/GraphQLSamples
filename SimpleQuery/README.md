@@ -1,8 +1,8 @@
 # Simple GraphQL Query
 
-This sample is a demo for performing a GraphQL query to the Visma Business Cloud API using C#.
+This sample is a demo for performing a GraphQL query to the Business NXT API using C#.
 
-This application is described in the [Visma Business Cloud API docs](https://business.visma.net/apidocs/docs/exploring-api/code).
+This application is described in the [Business NXT API docs](https://docs.business.visma.net/docs/exploring-api/code).
 
 ## Description
 
